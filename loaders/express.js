@@ -6,7 +6,6 @@ import routes from '../api';
 import config from '../config';
 
 export default ({app}) => {
-    // app = express();
     app.use(cors());
     app.use(bodyParser.json());
     app.use(config.api.prefix, routes);

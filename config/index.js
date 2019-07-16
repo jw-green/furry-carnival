@@ -23,6 +23,15 @@ export default {
   },
 
   token: process.env.SECRET_TOKEN,
+
+  email: {
+    defaultSender: process.env.EMAIL_DEFAULT_SENDER,
+    defaultBcc: process.env.EMAIL_DEFAULT_BCC,
+    host: process.env.EMAIL_HOST,
+    port: process.env.EMAIL_PORT,
+    login: process.env.EMAIL_DEFAULT_LOGIN,
+    pwd: process.env.EMAIL_DEFAULT_PWD
+  },
   
   api: {
     prefix: '/api',
