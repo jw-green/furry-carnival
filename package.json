@@ -27,7 +27,7 @@
     "mongodb": "^3.2.6",
     "mongoose": "^5.7.5",
     "nodemailer": "^6.2.1",
-    "pug": "^2.0.3",
+    "pug": "^3.0.1",
     "reflect-metadata": "^0.1.13",
     "sendmail": "^1.4.1",
     "smtp-server": "^3.5.0",
