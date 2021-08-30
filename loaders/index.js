@@ -10,15 +10,20 @@ export default async ({expressApp}) => {
     await expressLoader({ app: expressApp });
     console.log('->    Express Loaded');
 
-    const ContactsModel = {
-        name: 'ContactsModel',
-        model: require('../models/Contacts').default,
-    };
+    // Example Model
+    // =====================================================
+    // const ContactsModel = {
+    //     name: 'ContactsModel',
+    //     model: require('../models/Contacts').default,
+    // };
 
     const { agenda } = await dependencyInjectorLoader({
         mongoConnection,
         models: [
-          ContactsModel,
+            
+        // Example
+        // =================================================
+        //   ContactsModel,
         ],
     });
 
